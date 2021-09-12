@@ -1,0 +1,6 @@
+overwrite: true
+schema: "http://saleor.acquirecord.top/graphql/"
+generates:
+  src/graphql.d.ts:
+    plugins:
+      - "typescript"
