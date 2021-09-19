@@ -1,7 +1,7 @@
 export default {
   pages: [
-    'pages/index/index',
     'pages/category/index',
+    'pages/index/index',
     'pages/cart/index',
     'pages/profile/index',
   ],
@@ -12,7 +12,8 @@ export default {
     navigationBarTextStyle: 'black'
   },
   tabBar: {
-    list: [{
+    list: [
+    {
       'iconPath': 'resource/icons/home.png',
       'selectedIconPath': 'resource/icons/home_selected.png',
       pagePath: 'pages/index/index',

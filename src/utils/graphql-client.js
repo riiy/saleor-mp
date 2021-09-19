@@ -2,7 +2,7 @@ import Taro from '@tarojs/taro'
 import DefaultClient from 'apollo-boost';
 
 const client = new DefaultClient({
-  uri: 'http://saleor.acquirecord.top/graphql/',
+  uri: 'https://saleor.acquirecord.top/graphql/',
   fetch: (url, options) => Taro.request({
     url,
     method: options.method,
